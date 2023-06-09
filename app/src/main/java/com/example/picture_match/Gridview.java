@@ -53,6 +53,5 @@ public class Gridview extends AppCompatActivity {
 
             adapter = new GridviewAdapter(Gridview.this, arrayList,countdown,progressBar);
             gridView.setAdapter(adapter);
-
         }
     }
